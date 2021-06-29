@@ -1,4 +1,4 @@
-import {SubscribersTree} from "./subscribersTree";
+import { SubscribersTree } from "./subscribersTree";
 import get from "lodash.get";
 import set from "lodash.set";
 

@@ -4,6 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
+    "generate-types": "mkdir src/smartState/generated && yarn ts-node src/smartState/codeGenerate.ts",
     "dev:node": "ts-node-dev --inspect --clear --respawn  src/index.ts",
     "dev": "parcel src/index.html"
   },
